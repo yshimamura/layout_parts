@@ -1,5 +1,135 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q7__box {
+  display: inline-block;
+  margin: 10px;
+  font-size: 16px;
+  vertical-align: middle;
+}
+.txt {
+  padding: 5px;
+  border: 1px solid #00BCD4;
+  border-radius: 5px;
+}
+.txtarea {
+  height: 40px;
+  padding: 5px;
+  border: 1px solid #00BCD4;
+  border-radius: 5px;
+  resize: none;
+}
+.cursor {
+  cursor: pointer;
+}
+.style-reset__radio {
+  display: none;
+}
+.radio__txt {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+.radio__txt:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: "";
+}
+.style-reset__radio:checked +
+.radio__txt:after {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: "";
+}
+.style-reset__check {
+  display: none;
+}
+.check__txt {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 22px;
+}
+.check__txt:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  content: "";
+}
+.style-reset__check:checked +
+.check__txt:after {
+  position: absolute;
+  top: 5px;
+  left: 3px;
+  width: 13px;
+  height: 5px;
+  border-bottom: 2px solid #00BCD4;
+  border-left: 2px solid #00BCD4;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  content: "";
+}
 
+.style__reset {
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.select {
+  position: relative;
+  background-color: #FFF;
+}
+.select__item {
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px 30px 5px 5px;
+  font-size: 14px;
+}
+.select:before {
+  position: absolute;
+  top: 7px;
+  right: 9px;
+  width: 8px;
+  height: 8px;
+  border-bottom: 2px solid #ccc;
+  border-left: 2px solid #ccc;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  content: "";
+}
+
+.btn {
+  padding: 5px 10px;
+  border: 1px solid #00BCD4;
+  border-radius: 5px;
+  color: #00BCD4;
+  cursor: pointer;
+}
+.btn:active {
+  color: white;
+  background-color: #00BCD4;
+}
 /* 回答はここに書いてね */

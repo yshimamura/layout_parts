@@ -1,5 +1,38 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.box__center {
+  width: 900px;
+  margin: 0 auto;
+}
+.background {
+  background-color: #eff3f4;
+  padding: 20px;
+  width: 860px;
+}
+.q1__box {
+  float: left;
+  border: solid 20px #3274ae;
+  width: 230px;
+}
+.sentence {
+  background-color: #eaf4ff;
+  border: solid 10px #022336;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 20px;
+  width: 170px;
+}
+.margin {
+  margin-left: 20px;
+}
+.box__wrap {
+  width: 900px;
+  height: auto;
+}
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+}
 /* 回答はここに書いてね */

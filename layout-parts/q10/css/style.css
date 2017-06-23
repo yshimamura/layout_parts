@@ -1,5 +1,139 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.form__wrapper {
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ECF1F2;
+}
+.form__title {
+  position: relative;
+  margin-bottom: 20px;
+}
+.form__title__txt {
+  position: relative;
+  display: inline-block;
+  padding-right: 10px;
+  background-color: #ECF1F2;
+  font-size: 24px;
+  font-weight: bold;
+}
+.form__title:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  content: "";
+}
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table !important;
+}
+.form__left-side {
+  float: left;
+  width: 300px;
+}
+.form__left-side__items {
+  margin-bottom: 20px;
+}
 
+.form__left-side__items > li:not(:first-child) {
+  margin-top: 20px;
+}
+
+.form__left-side__items__title {
+  float: left;
+  width: 100px;
+  line-height: 25px;
+  text-align: right;
+}
+.asterisk {
+  color: #F00;
+}
+.form__left-side__items__content {
+  float: right;
+  width: 180px;
+}
+.form--init {
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.form__input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+.radio {
+  cursor: pointer;
+}
+.radio__btn {
+  display: none;
+}
+.radio__txt {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+.radio__txt:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: "";
+}
+.radio__btn:checked +
+.radio__txt:after {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: "";
+}
+.form__left-side__bottom {
+  text-align: right;
+}
+.form__left-side__bottom__btn {
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #00BCD4;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 26px;
+}
+.form__right-side {
+  float: right;
+  width: 380px;
+}
+.form__right-side__txt {
+  width: 100%;
+  height: 203px;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  box-sizing: border-box;
+  resize: none;
+}
 /* 回答はここに書いてね */

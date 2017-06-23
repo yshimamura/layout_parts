@@ -37,7 +37,64 @@
         ・input(type="submit")
         -->
         <!-- 回答はここに書いてね -->
+        <form class="form__wrapper">
+          <div class="form__title">
+            <p class="form__title__txt">Form Exercise</p>
+          </div>
+          <div class="clearfix">
+            <div class="form__left-side">
+              <ul class="form__left-side__items">
+              <li class="clearfix">
+                <p class="form__left-side__items__title">name
+                  <span class="asterisk">*</span>
+                </p>
+                <div class="form__left-side__items__content">
+                  <input class="form__input form--init" type="text" name="text" required>
+                </div>
+              </li>
+              <li class="clearfix">
+                <p class="form__left-side__items__title">Sex</p>
+                <div class="form__left-side__items__content">
+                  <label class="radio">
+                    <input class="radio__btn" type="radio" name="q10" value="male">
+                    <span class="radio__txt">male</span>
+                  </label>
+                  <label class="radio">
+                    <input class="radio__btn" type="radio" name="q10" value="female">
+                    <span class="radio__txt">female</span>
+                  </label>
+                </div>
+              </li>
 
+              <li class="clearfix">
+              <p class="form__left-side__items__title">Email
+                <span class="asterisk">*</span>
+              </p>
+                <div class="form__left-side__items__content">
+                  <input class="form__input form--init" type="email" name="email" placeholder="ex) hoge@gmail.com" required>
+                </div>
+              </li>
+
+
+              <li class="clearfix">
+                <p class="form__left-side__items__title">Telephone
+                </p>
+                <div class="form__left-side__items__content">
+                  <input class="form__input form--init" type="telephone" name="tel" placeholder="ex) 08012345678">
+                </div>
+              </li>
+              </ul>
+              <div class="form__left-side__bottom">
+                <input class="form__left-side__bottom__btn form--init" type="submit" value="submit">
+              </div>
+            </li>
+            </div>
+
+
+          <div class="form__right-side">
+              <textarea class="form__right-side__txt form--init" name="textarea" placeholder="Please fill in the message..."></textarea>
+          </div>
+        </form>
         <!-- 回答はここに書いてね -->
     </div>
 </div>
