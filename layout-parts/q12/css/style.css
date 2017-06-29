@@ -12,6 +12,7 @@
   line-height: 16px;
   margin: 0 auto;
 }
+
 .balloon:before {
   position: absolute;
   border-left: solid 25px transparent;
@@ -21,6 +22,7 @@
   content: "";
   left: 8%;
 }
+
 .balloon:after {
   position: absolute;
   border-left: solid 20px transparent;
